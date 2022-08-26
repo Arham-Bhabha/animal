@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Saira:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script href="main.js"></script>
+  </head>
+  <body>
+    <div id="header_div" class="text-center">
+      <h2>Sound Controlled Animals</h2>
+      <p>Note: Play different sound like barking, meowing.</p>
+    </div>
+    <div id="main_div">
+      <center>
+        <button id="start" onclick="startClassification()" class="btn btn-primary">Start</button>
+        <h4 id="audio_detected">Detected Dog - 0, Detected Cat - 0</h4>
+        <h3 id="sound_detector">Detected voice is of - </h3>
+        <br>
+        <img id="animal_image" src="https://img.freepik.com/premium-vector/grey-dog-with-prick-ears-semi-flat-color-vector-character-full-body-animal-white-adopting-pet-from-shelter-isolated-modern-cartoon-style-illustration-graphic-design-animation_151150-7042.jpg">
+      </center>
+    </div>
+    <div class="copy_right_footer"
+  </body>
+</html>
